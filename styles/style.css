@@ -407,9 +407,10 @@ textarea {
         display: flex;
         justify-content: center;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #4FBFA5;
+        background-color: #00C0FF;
         color: #fff;
         height: 700px;
+        margin-bottom: 60px;
     }
     .content__header {
         display: flex;
@@ -467,10 +468,10 @@ textarea {
     }
     .content_photo{
         position: absolute;
-        left: 787px;
+        left: 887px;
         top: 180px;
-        height: 533px;
-        width: 746px;
+        height: 500px;
+        width: 515px;
         border-radius: 0px;
 
     }
@@ -499,7 +500,7 @@ textarea {
         border: 0;
         color: white;
     }
-    .content__item6{
+    .content__item5{
         font-size: 21px;
         font-weight: 500;
         line-height: 32px;
@@ -507,7 +508,38 @@ textarea {
         text-align: center;
         height: 78px;
         width: 160px;    
-        background: #00868A;
+        background: #4FBFA5;
         border: 0;
         color: white;
+    }
+
+    /* content end */
+
+    /* footer start */
+    .footer {
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer__section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer__item {
+        padding: 10px 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .footer__item1 {
+        padding: 10px 25px;
+        font-size: 20px;
+        }
+    .footer__item:hover {
+        background-color: #ff9900;
+        border-radius: 10px;
+    }
+    .poloski {
+        border-right: 0.5px solid #C4C4C4;
+        height: 90px;
     }
